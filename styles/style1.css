@@ -1,0 +1,90 @@
+body {
+    background-color: #9381ff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.svg {
+    width: 40px;
+    height: 40px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.svg-h1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+h1 {
+    margin: 0 0 0 10px;
+    color: #463f3a;
+    font-weight: 700;
+}
+
+h2 {
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.col-sm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #e4d9ff;
+    margin: 0 15px;
+    height: 200px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.def {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #463f3a;
+}
+
+#number {
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: #0091ad;
+}
+
+.description {
+    font-weight: 300;
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+.form-chart {
+    justify-content: center;
+}
+
+.col-12.col-md-5,
+.col-12.col-md-7 {
+    background-color: #e4d9ff;
+    border-radius: 20px;
+    margin: 20px auto;
+    padding: 30px;
+}
+
+.homebutton {
+    background-color: #9381ff;
+    color: white;
+    border: none;
+    font-weight: 600;
+}
+
+.homebutton:hover {
+    background-color: #7b68ee;
+    color: white;
+}
